@@ -6,7 +6,7 @@ import (
     "github.com/gorilla/mux"
     "log"
     "net/http"
-    "https://github.com/edgarcolque/go_api/api/libs"
+    "github.com/edgarcolque/go_api/api/libs"
 )
 
 func main() {

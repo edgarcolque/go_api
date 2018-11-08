@@ -23,9 +23,9 @@ func InitDb() {
 		log.Panicf("Failed to connect database becauase in reason %s", err.Error())
 	}
 
-	if !DB.HasTable(&Post{}) {
-		DB.CreateTable(&Post{})
-	}
+//	if !DB.HasTable(&Post{}) {
+//		DB.CreateTable(&Post{})
+//	}
 
 	testPost := Post{Author: "Dorper", Message: "GoDoRP is Dope"}
 	DB.Create(&testPost)
